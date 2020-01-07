@@ -123,6 +123,100 @@ Meteo_Project/fast:
 	$(MAKE) -f CMakeFiles/Meteo_Project.dir/build.make CMakeFiles/Meteo_Project.dir/build
 .PHONY : Meteo_Project/fast
 
+#=============================================================================
+# Target rules for targets named Meteo_Project_autogen
+
+# Build rule for target.
+Meteo_Project_autogen: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Meteo_Project_autogen
+.PHONY : Meteo_Project_autogen
+
+# fast build rule for target.
+Meteo_Project_autogen/fast:
+	$(MAKE) -f CMakeFiles/Meteo_Project_autogen.dir/build.make CMakeFiles/Meteo_Project_autogen.dir/build
+.PHONY : Meteo_Project_autogen/fast
+
+Courbes.o: Courbes.cpp.o
+
+.PHONY : Courbes.o
+
+# target to build an object file
+Courbes.cpp.o:
+	$(MAKE) -f CMakeFiles/Meteo_Project.dir/build.make CMakeFiles/Meteo_Project.dir/Courbes.cpp.o
+.PHONY : Courbes.cpp.o
+
+Courbes.i: Courbes.cpp.i
+
+.PHONY : Courbes.i
+
+# target to preprocess a source file
+Courbes.cpp.i:
+	$(MAKE) -f CMakeFiles/Meteo_Project.dir/build.make CMakeFiles/Meteo_Project.dir/Courbes.cpp.i
+.PHONY : Courbes.cpp.i
+
+Courbes.s: Courbes.cpp.s
+
+.PHONY : Courbes.s
+
+# target to generate assembly for a file
+Courbes.cpp.s:
+	$(MAKE) -f CMakeFiles/Meteo_Project.dir/build.make CMakeFiles/Meteo_Project.dir/Courbes.cpp.s
+.PHONY : Courbes.cpp.s
+
+Fenetre.o: Fenetre.cpp.o
+
+.PHONY : Fenetre.o
+
+# target to build an object file
+Fenetre.cpp.o:
+	$(MAKE) -f CMakeFiles/Meteo_Project.dir/build.make CMakeFiles/Meteo_Project.dir/Fenetre.cpp.o
+.PHONY : Fenetre.cpp.o
+
+Fenetre.i: Fenetre.cpp.i
+
+.PHONY : Fenetre.i
+
+# target to preprocess a source file
+Fenetre.cpp.i:
+	$(MAKE) -f CMakeFiles/Meteo_Project.dir/build.make CMakeFiles/Meteo_Project.dir/Fenetre.cpp.i
+.PHONY : Fenetre.cpp.i
+
+Fenetre.s: Fenetre.cpp.s
+
+.PHONY : Fenetre.s
+
+# target to generate assembly for a file
+Fenetre.cpp.s:
+	$(MAKE) -f CMakeFiles/Meteo_Project.dir/build.make CMakeFiles/Meteo_Project.dir/Fenetre.cpp.s
+.PHONY : Fenetre.cpp.s
+
+Meteo_Project_autogen/mocs_compilation.o: Meteo_Project_autogen/mocs_compilation.cpp.o
+
+.PHONY : Meteo_Project_autogen/mocs_compilation.o
+
+# target to build an object file
+Meteo_Project_autogen/mocs_compilation.cpp.o:
+	$(MAKE) -f CMakeFiles/Meteo_Project.dir/build.make CMakeFiles/Meteo_Project.dir/Meteo_Project_autogen/mocs_compilation.cpp.o
+.PHONY : Meteo_Project_autogen/mocs_compilation.cpp.o
+
+Meteo_Project_autogen/mocs_compilation.i: Meteo_Project_autogen/mocs_compilation.cpp.i
+
+.PHONY : Meteo_Project_autogen/mocs_compilation.i
+
+# target to preprocess a source file
+Meteo_Project_autogen/mocs_compilation.cpp.i:
+	$(MAKE) -f CMakeFiles/Meteo_Project.dir/build.make CMakeFiles/Meteo_Project.dir/Meteo_Project_autogen/mocs_compilation.cpp.i
+.PHONY : Meteo_Project_autogen/mocs_compilation.cpp.i
+
+Meteo_Project_autogen/mocs_compilation.s: Meteo_Project_autogen/mocs_compilation.cpp.s
+
+.PHONY : Meteo_Project_autogen/mocs_compilation.s
+
+# target to generate assembly for a file
+Meteo_Project_autogen/mocs_compilation.cpp.s:
+	$(MAKE) -f CMakeFiles/Meteo_Project.dir/build.make CMakeFiles/Meteo_Project.dir/Meteo_Project_autogen/mocs_compilation.cpp.s
+.PHONY : Meteo_Project_autogen/mocs_compilation.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -159,6 +253,16 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... Meteo_Project"
 	@echo "... edit_cache"
+	@echo "... Meteo_Project_autogen"
+	@echo "... Courbes.o"
+	@echo "... Courbes.i"
+	@echo "... Courbes.s"
+	@echo "... Fenetre.o"
+	@echo "... Fenetre.i"
+	@echo "... Fenetre.s"
+	@echo "... Meteo_Project_autogen/mocs_compilation.o"
+	@echo "... Meteo_Project_autogen/mocs_compilation.i"
+	@echo "... Meteo_Project_autogen/mocs_compilation.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
