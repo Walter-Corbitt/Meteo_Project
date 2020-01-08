@@ -9,6 +9,7 @@
 #include <QtWidgets/QWidget>
 #include <QtWidgets/QPushButton>
 #include "Fenetre.h"
+#include <QEasingCurve>
 
 
 using namespace std;

@@ -3,11 +3,9 @@
 //
 
 #include "Courbes.h"
-#include <QtWidgets/QFormLayout>
-#include <QString>
-#include <QtWidgets/QPushButton>
-#include <iostream>
-#include <QtWidgets/QApplication>
 
-using namespace std;
+QEasingCurve easing(QEasingCurve::InOutQuad);
+
+for (qreal t = 0.0; t < 1.0; t += 0.1)
+qWarning() << "Effective progress" << t << "is" << easing.valueForProgress(t);
 
