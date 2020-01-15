@@ -5,5 +5,5 @@ project(Meteo_Project)
 set(CMAKE_CXX_STANDARD 14)
 find_package(Qt5Widgets)
 
-add_executable(Meteo_Project main.cpp Fenetre.cpp Fenetre.h Courbes.cpp Courbes.h)
+add_executable(Meteo_Project main.cpp Fenetre.cpp Fenetre.h Courbes.cpp Courbes.h Menu.cpp Menu.h)
 target_link_libraries(Meteo_Project Qt5::Widgets)

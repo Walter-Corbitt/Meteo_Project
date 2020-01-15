@@ -6,40 +6,21 @@
 #define MENU_FENETRE_H
 
 #include <iostream>
-#include <QtWidgets/QFormLayout>
-#include <QtWidgets/QWidget>
-#include <QtWidgets/QPushButton>
+#include <QtWidgets>
 #include "Courbes.h"
+#include "Menu.h"
 
 using namespace std;
 
+
 class Fenetre: public QWidget {
-
-    Q_OBJECT
-public :
-
-    Fenetre();
-
-
-    virtual ~Fenetre();
-
+Q_OBJECT
+private:
+    Menu* menu;
+public:
+    Fenetre(QMainWindow *window);
 public slots:
-
-            void Courbes();
-    /*void Donnees();
-    void Complement();*/
-
-
-
-
-
-private :
-
-    QFormLayout *formLayout;
-    QPushButton *bouton;
-    QPushButton *bouton2;
-    QPushButton *bouton3;
-
+   void Courbes();
 };
 
 
